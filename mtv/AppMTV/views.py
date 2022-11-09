@@ -49,3 +49,6 @@ def lista_family(request):
     lista = Family.objects.all()
     
     return render(request,"lista_family.html",{"lista_family": lista})
+
+def Formulario(request):
+    return render(request, "Formulario.html")
