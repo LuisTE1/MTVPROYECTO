@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Lista De Family</title>
+    </head>
+    <body>
+        <ul>
+            
+            {% for family in lista_family %}
+             <li>{{family.fecha_nacimiento}} - {{family.nombre}} - {{family.parentesco}} - {{family.celular}}</li>   
+            {% endfor %}
+                
+        </ul>
+    </body>
+</html>
